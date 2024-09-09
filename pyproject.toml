@@ -1,7 +1,7 @@
 [project]
 name = "fishregression"
-version = "0.1.0"
-description = "Default template for PDM package"
+version = "0.2.0"
+description = "Fish prediction with linearRegression"
 authors = [
     {name = "Nicou11", email = "lyoungin1204@gmail.com"},
 ]
@@ -14,9 +14,11 @@ requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "MIT"}
 
+[project.scripts]
+pp = fishregression.cli:predict
 
 [tool.pdm]
-distribution = false
+distribution = true
 
 [tool.pdm.dev-dependencies]
 note = [
