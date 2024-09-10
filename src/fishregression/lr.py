@@ -30,7 +30,7 @@ def run_prediction(length: float):
     return float(r[0])
 
 @app.get("/fish")
-def fish(length: float):
+def lr_api(length: float):
     """
         물고기의 무게 예측
 
@@ -42,9 +42,9 @@ def fish(length: float):
           weight (float): 물고기 무게(g)
           length (float): 물고기 길이(cm)
     """
-    fish_weight = run_prediction(length)
+    weight = run_prediction(length)
 
     return {
                 "입력한 길이": length,
-                "예측된 무게": fish_weight
+                "예측된 무게": weight
             }

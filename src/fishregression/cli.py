@@ -1,4 +1,7 @@
-
+from fastapi import FastAPI
+from typing import Union
+from fishregression.lr import lr_api
+from fishmlserv.knn import knn_api
 
 def predict():
     length = float(input("물고기의 길이를 입력하세요: "))
