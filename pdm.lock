@@ -8,12 +8,12 @@ lock_version = "4.5.0"
 content_hash = "sha256:341c2aaf569fce65a6104974a899dcba41824dc94e6e67ef70692884d9682618"
 
 [[metadata.targets]]
-requires_python = "==3.11.*"
+requires_python = ">=3.11
 
 [[package]]
 name = "annotated-types"
 version = "0.7.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Reusable constraint types to use with typing.Annotated"
 groups = ["default"]
 dependencies = [
@@ -27,7 +27,7 @@ files = [
 [[package]]
 name = "anyio"
 version = "4.4.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "High level compatibility layer for multiple asynchronous event loop implementations"
 groups = ["default", "note"]
 dependencies = [
@@ -94,7 +94,7 @@ files = [
 [[package]]
 name = "arrow"
 version = "1.3.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Better dates & times for Python"
 groups = ["note"]
 dependencies = [
@@ -123,7 +123,7 @@ files = [
 [[package]]
 name = "async-lru"
 version = "2.0.4"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Simple LRU cache for asyncio"
 groups = ["note"]
 dependencies = [
@@ -151,7 +151,7 @@ files = [
 [[package]]
 name = "babel"
 version = "2.16.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Internationalization utilities"
 groups = ["note"]
 dependencies = [
@@ -179,7 +179,7 @@ files = [
 [[package]]
 name = "bleach"
 version = "6.1.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "An easy safelist-based HTML-sanitizing tool."
 groups = ["note"]
 dependencies = [
@@ -205,7 +205,7 @@ files = [
 [[package]]
 name = "cffi"
 version = "1.17.1"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Foreign Function Interface for Python calling C code."
 groups = ["note"]
 dependencies = [
@@ -283,7 +283,7 @@ files = [
 [[package]]
 name = "comm"
 version = "0.2.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Jupyter Python Comm implementation, for usage in ipykernel, xeus-python etc."
 groups = ["note"]
 dependencies = [
@@ -320,7 +320,7 @@ files = [
 [[package]]
 name = "cycler"
 version = "0.12.1"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Composable style cycles"
 groups = ["note"]
 files = [
@@ -331,7 +331,7 @@ files = [
 [[package]]
 name = "debugpy"
 version = "1.8.5"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "An implementation of the Debug Adapter Protocol for Python"
 groups = ["note"]
 files = [
@@ -368,7 +368,7 @@ files = [
 [[package]]
 name = "executing"
 version = "2.1.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Get the currently executing AST node of a frame, and other information"
 groups = ["note"]
 files = [
@@ -379,7 +379,7 @@ files = [
 [[package]]
 name = "fastapi"
 version = "0.114.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
 groups = ["default"]
 dependencies = [
@@ -405,7 +405,7 @@ files = [
 [[package]]
 name = "fonttools"
 version = "4.53.1"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Tools to manipulate font files"
 groups = ["note"]
 files = [
@@ -452,7 +452,7 @@ files = [
 [[package]]
 name = "httpcore"
 version = "1.0.5"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "A minimal low-level HTTP client."
 groups = ["note"]
 dependencies = [
@@ -467,7 +467,7 @@ files = [
 [[package]]
 name = "httpx"
 version = "0.27.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "The next generation HTTP client."
 groups = ["note"]
 dependencies = [
@@ -496,7 +496,7 @@ files = [
 [[package]]
 name = "ipykernel"
 version = "6.29.5"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "IPython Kernel for Jupyter"
 groups = ["note"]
 dependencies = [
@@ -588,7 +588,7 @@ files = [
 [[package]]
 name = "joblib"
 version = "1.4.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Lightweight pipelining with Python functions"
 groups = ["default"]
 files = [
@@ -599,7 +599,7 @@ files = [
 [[package]]
 name = "json5"
 version = "0.9.25"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "A Python implementation of the JSON5 data format."
 groups = ["note"]
 files = [
@@ -621,7 +621,7 @@ files = [
 [[package]]
 name = "jsonschema"
 version = "4.23.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "An implementation of JSON Schema validation for Python"
 groups = ["note"]
 dependencies = [
@@ -640,7 +640,7 @@ files = [
 [[package]]
 name = "jsonschema-specifications"
 version = "2023.12.1"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "The JSON Schema meta-schemas and vocabularies, exposed as a Registry"
 groups = ["note"]
 dependencies = [
@@ -656,7 +656,7 @@ files = [
 name = "jsonschema"
 version = "4.23.0"
 extras = ["format-nongpl"]
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "An implementation of JSON Schema validation for Python"
 groups = ["note"]
 dependencies = [
@@ -678,7 +678,7 @@ files = [
 [[package]]
 name = "jupyter-client"
 version = "8.6.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Jupyter protocol implementation and client libraries"
 groups = ["note"]
 dependencies = [
@@ -697,7 +697,7 @@ files = [
 [[package]]
 name = "jupyter-core"
 version = "5.7.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Jupyter core package. A base package on which Jupyter projects rely."
 groups = ["note"]
 dependencies = [
@@ -713,7 +713,7 @@ files = [
 [[package]]
 name = "jupyter-events"
 version = "0.10.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Jupyter Event System library"
 groups = ["note"]
 dependencies = [
@@ -733,7 +733,7 @@ files = [
 [[package]]
 name = "jupyter-lsp"
 version = "2.2.5"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Multi-Language Server WebSocket proxy for Jupyter Notebook/Lab server"
 groups = ["note"]
 dependencies = [
@@ -748,7 +748,7 @@ files = [
 [[package]]
 name = "jupyter-server"
 version = "2.14.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications."
 groups = ["note"]
 dependencies = [
@@ -780,7 +780,7 @@ files = [
 [[package]]
 name = "jupyter-server-terminals"
 version = "0.5.3"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "A Jupyter Server Extension Providing Terminals."
 groups = ["note"]
 dependencies = [
@@ -795,7 +795,7 @@ files = [
 [[package]]
 name = "jupyterlab"
 version = "4.2.5"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "JupyterLab computational environment"
 groups = ["note"]
 dependencies = [
@@ -824,7 +824,7 @@ files = [
 [[package]]
 name = "jupyterlab-pygments"
 version = "0.3.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Pygments theme using JupyterLab CSS variables"
 groups = ["note"]
 files = [
@@ -835,7 +835,7 @@ files = [
 [[package]]
 name = "jupyterlab-server"
 version = "2.27.3"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "A set of server components for JupyterLab and JupyterLab like applications."
 groups = ["note"]
 dependencies = [
@@ -856,7 +856,7 @@ files = [
 [[package]]
 name = "kiwisolver"
 version = "1.4.7"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "A fast implementation of the Cassowary constraint solver"
 groups = ["note"]
 files = [
@@ -930,7 +930,7 @@ files = [
 [[package]]
 name = "matplotlib-inline"
 version = "0.1.7"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Inline Matplotlib backend for Jupyter"
 groups = ["note"]
 dependencies = [
@@ -955,7 +955,7 @@ files = [
 [[package]]
 name = "nbclient"
 version = "0.10.0"
-requires_python = "==3.11.0"
+requires_python = ">=3.11
 summary = "A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor."
 groups = ["note"]
 dependencies = [
@@ -972,7 +972,7 @@ files = [
 [[package]]
 name = "nbconvert"
 version = "7.16.4"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Converting Jupyter Notebooks (.ipynb files) to other formats.  Output formats include asciidoc, html, latex, markdown, pdf, py, rst, script.  nbconvert can be used both as a Python library (`import nbconvert`) or as a command line tool (invoked as `jupyter nbconvert ...`)."
 groups = ["note"]
 dependencies = [
@@ -1001,7 +1001,7 @@ files = [
 [[package]]
 name = "nbformat"
 version = "5.10.4"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "The Jupyter Notebook format"
 groups = ["note"]
 dependencies = [
@@ -1029,7 +1029,7 @@ files = [
 [[package]]
 name = "notebook"
 version = "7.2.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Jupyter Notebook - A web-based notebook environment for interactive computing"
 groups = ["note"]
 dependencies = [
@@ -1095,7 +1095,7 @@ files = [
 [[package]]
 name = "packaging"
 version = "24.1"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Core utilities for Python packages"
 groups = ["note"]
 files = [
@@ -1142,7 +1142,7 @@ files = [
 [[package]]
 name = "pillow"
 version = "10.4.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Python Imaging Library (Fork)"
 groups = ["note"]
 files = [
@@ -1163,7 +1163,7 @@ files = [
 [[package]]
 name = "platformdirs"
 version = "4.3.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`."
 groups = ["note"]
 files = [
@@ -1174,7 +1174,7 @@ files = [
 [[package]]
 name = "prometheus-client"
 version = "0.20.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Python client for the Prometheus monitoring system."
 groups = ["note"]
 files = [
@@ -1237,7 +1237,7 @@ files = [
 [[package]]
 name = "pycparser"
 version = "2.22"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "C parser in Python"
 groups = ["note"]
 files = [
@@ -1248,7 +1248,7 @@ files = [
 [[package]]
 name = "pydantic"
 version = "2.9.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Data validation using Python type hints"
 groups = ["default"]
 dependencies = [
@@ -1266,7 +1266,7 @@ files = [
 [[package]]
 name = "pydantic-core"
 version = "2.23.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Core functionality for Pydantic validation and serialization"
 groups = ["default"]
 dependencies = [
@@ -1291,7 +1291,7 @@ files = [
 [[package]]
 name = "pygments"
 version = "2.18.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Pygments is a syntax highlighting package written in Python."
 groups = ["note"]
 files = [
@@ -1350,7 +1350,7 @@ files = [
 [[package]]
 name = "pywinpty"
 version = "2.0.13"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Pseudo terminal support for Windows from Python."
 groups = ["note"]
 marker = "os_name == \"nt\""
@@ -1362,7 +1362,7 @@ files = [
 [[package]]
 name = "pyyaml"
 version = "6.0.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "YAML parser and emitter for Python"
 groups = ["note"]
 files = [
@@ -1406,7 +1406,7 @@ files = [
 [[package]]
 name = "referencing"
 version = "0.35.1"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "JSON Referencing + Python"
 groups = ["note"]
 dependencies = [
@@ -1421,7 +1421,7 @@ files = [
 [[package]]
 name = "requests"
 version = "2.32.3"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Python HTTP for Humans."
 groups = ["note"]
 dependencies = [
@@ -1463,7 +1463,7 @@ files = [
 [[package]]
 name = "rpds-py"
 version = "0.20.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Python bindings to Rust's persistent data structures (rpds)"
 groups = ["note"]
 files = [
@@ -1539,7 +1539,7 @@ files = [
 [[package]]
 name = "setuptools"
 version = "74.1.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Easily download, build, install, upgrade, and uninstall Python packages"
 groups = ["note"]
 files = [
@@ -1572,7 +1572,7 @@ files = [
 [[package]]
 name = "soupsieve"
 version = "2.6"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "A modern CSS selector implementation for Beautiful Soup."
 groups = ["note"]
 files = [
@@ -1598,7 +1598,7 @@ files = [
 [[package]]
 name = "starlette"
 version = "0.38.5"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "The little ASGI library that shines."
 groups = ["default"]
 dependencies = [
@@ -1613,7 +1613,7 @@ files = [
 [[package]]
 name = "terminado"
 version = "0.18.1"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Tornado websocket backend for the Xterm.js Javascript terminal emulator library."
 groups = ["note"]
 dependencies = [
@@ -1629,7 +1629,7 @@ files = [
 [[package]]
 name = "threadpoolctl"
 version = "3.5.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "threadpoolctl"
 groups = ["default"]
 files = [
@@ -1640,7 +1640,7 @@ files = [
 [[package]]
 name = "tinycss2"
 version = "1.3.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "A tiny CSS parser"
 groups = ["note"]
 dependencies = [
@@ -1654,7 +1654,7 @@ files = [
 [[package]]
 name = "tornado"
 version = "6.4.1"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed."
 groups = ["note"]
 files = [
@@ -1674,7 +1674,7 @@ files = [
 [[package]]
 name = "traitlets"
 version = "5.14.3"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Traitlets Python configuration system"
 groups = ["note"]
 files = [
@@ -1685,7 +1685,7 @@ files = [
 [[package]]
 name = "types-python-dateutil"
 version = "2.9.0.20240906"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Typing stubs for python-dateutil"
 groups = ["note"]
 files = [
@@ -1696,7 +1696,7 @@ files = [
 [[package]]
 name = "typing-extensions"
 version = "4.12.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "Backported and Experimental Type Hints for Python 3.8+"
 groups = ["default", "note"]
 files = [
@@ -1730,7 +1730,7 @@ files = [
 [[package]]
 name = "urllib3"
 version = "2.2.2"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "HTTP library with thread-safe connection pooling, file post, and more."
 groups = ["note"]
 files = [
@@ -1741,7 +1741,7 @@ files = [
 [[package]]
 name = "uvicorn"
 version = "0.30.6"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "The lightning-fast ASGI server."
 groups = ["default"]
 dependencies = [
@@ -1770,7 +1770,7 @@ files = [
 [[package]]
 name = "webcolors"
 version = "24.8.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "A library for working with the color formats defined by HTML and CSS."
 groups = ["note"]
 files = [
@@ -1791,7 +1791,7 @@ files = [
 [[package]]
 name = "websocket-client"
 version = "1.8.0"
-requires_python = "==3.11"
+requires_python = ">=3.11
 summary = "WebSocket client for Python with low level API options"
 groups = ["note"]
 files = [
