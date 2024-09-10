@@ -1,21 +1,12 @@
 from typing import Union
 from fastapi import FastAPI
-from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+from fishregression.model.manager import get_Reg_path
 import pickle
 import os
 
 app = FastAPI()
 
-def get_linearReg_path():
-    f = os.path.abspath(__file__)
-    dir_name = os.path.dirname(f)
-    #model_path = dir_name + "/" + "model.pkl"
-    linearReg_path = os.path.join(dir_name, f"linearReg.pkl")
-    return linearReg_path
-
-with open(get_linearReg_path(), "rb") as f:
+with open(get_Reg_path(), "rb") as f:
     linear_model = pickle.load(f)
 
 @app.get("/")
@@ -48,3 +39,4 @@ def lr_api(length: float):
                 "입력한 길이": length,
                 "예측된 무게": weight
             }
+
