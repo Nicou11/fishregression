@@ -1,12 +1,12 @@
 from typing import Union
 from fastapi import FastAPI
-from fishregression.model.manager import get_Reg_path
+from fishregression.model.manager import get_reg_path
 import pickle
 import os
 
 app = FastAPI()
 
-with open(get_Reg_path(), "rb") as f:
+with open(get_reg_path(), "rb") as f:
     linear_model = pickle.load(f)
 
 @app.get("/")
@@ -14,7 +14,7 @@ def read_root():
     return {"Hello": "fishpredict"}
 
 def run_prediction(length: float):
-    model_path = get_linearReg_path()
+    model_path = get_reg_path()
     with open(model_path, "rb") as f:
         model = pickle.load(f)
     r = model.predict([[length**2, length]])
